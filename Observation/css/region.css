@@ -1,0 +1,97 @@
+/* pn.css: style sheet for the report of my Planetary Nebula observations */
+
+body {
+	width: 980px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+col.colme {
+	width:50%;
+}
+
+/* Style for the caption part of a data field */
+div.caption {
+	display:inline;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/* Style for the value part of a data field */
+div.value {
+	display:inline;
+	width:68%;
+	margin-left:auto;
+	margin-right:auto;
+	float:right;
+}
+
+/* Style for the border around every object's description area */
+div.border {
+	border-style:solid; 
+	border-width:3px; 
+	padding:10px;
+	margin-top:20px;
+	margin-bottom:20px;
+	clear:both;
+}
+
+/* Style for the page title/header area */
+div.header {
+	text-align: center;
+	padding: 20px;
+	color: white;
+	background-color: #428674;
+	font-family: 'Comic Sans MS', Arial, Helvetica, sans-serif;
+	font-size: 24pt;
+	line-height:8pt;
+}
+
+/* Style for the bottom area where the notes and image are shown */
+div.bottom {
+	min-height: 310px;
+	border: 1px solid black; 
+	border-top-width:0px;
+	padding:10px;
+ }
+
+div.bottom span {
+	font-weight: bold;
+}
+div.bottomx {
+	/*min-height: 310px;*/
+	border: 1px solid black; 
+	border-top-width:0px;
+	padding:10px;
+ }
+
+div.bottomx span {
+	font-weight: bold;
+}
+img {
+	float:right;
+	margin:10px;
+	margin-left:35px;
+	border: 1px solid black;
+	/*width:437px;*/
+	height:294px;
+}
+
+/* TBD: can't we consolidate table styles? */
+table.info {
+	border-collapse: collapse;
+	border: 1px solid black;
+	width:100%;
+	border: 1;
+}
+table.info span {
+	font-weight: bold;
+	padding-right: 20px;
+}
+
+table.info td {
+	border: 1px solid black;
+	padding-left: 10px;
+}
+
